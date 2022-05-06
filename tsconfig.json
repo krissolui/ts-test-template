@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"sourceMap": false,
+		"strict": true,
+		"strictPropertyInitialization": true,
+		"esModuleInterop": true,
+		"noEmitOnError": true,
+		"outDir": "lib",
+		"types": ["node", "mocha"]
+	},
+	"ts-node": {
+		"files": true
+	}
+}
