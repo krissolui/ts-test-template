@@ -2,7 +2,8 @@
 	"name": "ts-test-template",
 	"version": "1.0.0",
 	"description": "Typescript configuration template for running tests",
-	"main": "index.js",
+	"main": "lib/index.js",
+	"types": "src/index.ts",
 	"scripts": {
 		"build": "tsc -p ./tsconfig.prod.json",
 		"build::live": "tsc -p ./tsconfig.prod.json --watch",
